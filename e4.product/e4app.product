@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="E4 App" uid="E4 App" id="e4.application.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" useFeatures="true" includeLaunchers="true">
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>-console</programArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+   </launcherArgs>
+
+   <launcher>
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+   <vm>
+   </vm>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="e4.feature" version="1.0.0.qualifier"/>
+      <feature id="org.eclipse.emf.ecore"/>
+      <feature id="org.eclipse.e4.rcp"/>
+      <feature id="org.eclipse.equinox.p2.core.feature"/>
+      <feature id="org.eclipse.emf.common"/>
+      <feature id="org.eclipse.ecf.eventadmin.examples.feature"/>
+      <feature id="org.eclipse.ecf.remoteservice.feature"/>
+      <feature id="org.eclipse.ecf.remoteservice.rosgi.feature"/>
+      <feature id="org.eclipse.ecf.discovery.slp.feature"/>
+      <feature id="org.eclipse.ecf.discovery.feature"/>
+      <feature id="org.eclipse.ecf.server.generic.feature"/>
+      <feature id="org.eclipse.ecf.remoteservice.sdk.feature"/>
+      <feature id="org.eclipse.ecf.discovery.dnssd.feature"/>
+      <feature id="org.eclipse.ecf.discovery.jmdns.feature"/>
+      <feature id="org.eclipse.ecf.xmpp.feature"/>
+      <feature id="org.eclipse.ecf.eventadmin.feature"/>
+      <feature id="org.eclipse.ecf.remoteservice.soap.feature"/>
+      <feature id="org.eclipse.ecf.remoteservice.rest.feature"/>
+      <feature id="org.eclipse.ecf.osgi.services.feature"/>
+      <feature id="org.eclipse.ecf.remoteservice.examples.feature"/>
+      <feature id="org.eclipse.ecf.discovery.zookeeper.feature"/>
+      <feature id="org.eclipse.ecf.core"/>
+      <feature id="org.eclipse.ecf.datashare.feature"/>
+   </features>
+
+
+</product>
